@@ -22,3 +22,59 @@ Future enhancement opportunities include:
   - Simpler management of image uploads
   - Better documentation and handling of non-standard image sizes
   - Customizable counter box to fit into the theme of the uploaded images/art
+
+## Setup
+
+1. Clone the repo to your local pc
+```
+git clone https://github.com/iFlyNick/ctrlz-obs-browser-source.git
+```
+
+2a. Create new browser source in obs studio
+  - Set Local File checkbox to true
+  - Set the Local File path to the ctrlz.html file from the cloned repo
+  - Set the height to 1600 (you'll change this back later)
+  - Set 'Shutdown source when not visible' to true
+  - Click Ok
+
+  ![image](https://github.com/user-attachments/assets/bf9e4981-63ed-45e5-8049-3cb8a685125f)
+
+2b. Update the images for the toggle
+  - Right click the scene again and select 'Interact' 
+  - Click on the top 'Choose File' button to upload the main image
+  - Click on the bottom 'Choose File' button to upload the swap image
+  - Close out of the interactive browser
+  - Right click on the source again and select Properties
+  - Set the height back to 600
+  - Click Ok
+
+  ![image](https://github.com/user-attachments/assets/11854423-26cc-4501-9956-5219d3d3d422)
+
+
+3. Update the hotkey for the new source in obs settings
+  - Go to File -> Settings in obs studio
+  - Select 'Hotkeys' from the left side menu
+  - Scroll down to the scene you just created
+  - Update the 'Refresh Cache of current page' to the key tracking you want to increment
+  - Click Apply then Ok
+    
+  ![image](https://github.com/user-attachments/assets/13903136-a7b6-487a-b25f-61979b7626fa)
+
+  
+You're all set! Setup the source to be where you'd like on your scenes and it'll start incrementing!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
