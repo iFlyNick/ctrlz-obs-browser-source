@@ -15,7 +15,6 @@ function initSwap() {
 };
 
 function swapToSecondImage(timeout) {
-    console.log('swapping to second image');
     document.getElementById("swapper").src=img2Path;
     setTimeout(() => {
         swapToBaseImage();
@@ -23,7 +22,6 @@ function swapToSecondImage(timeout) {
 };
 
 function swapToBaseImage() {
-    console.log('swapping to base image');
     document.getElementById("swapper").src=img1Path;
 };
 
