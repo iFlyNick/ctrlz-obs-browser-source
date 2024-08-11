@@ -5,6 +5,13 @@ A concept built out to add functionality for artists, coders, gamers, or any oth
 
 Image options are any supported image type: .png/.gif/.jpg being probably most common
 
+Art images done by:
+- [SkyyeXVII (rage)](https://x.com/skyyexvii)
+- [Neruchi (hoodie)](https://x.com/nekooneru)
+
+
+![Example](https://github.com/user-attachments/assets/7c9a6056-c8f8-4e58-a010-69b69c69c7bc)
+
 ## Functionality
 
 The solution is written using html/css/js files to auto increment a counter based on the number of times the page is refreshed. In a normal situation this doesn't do much,
